@@ -1,0 +1,45 @@
+.navigation__bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    // border: 1.5px solid red;
+    border-bottom: 1px solid #abb1b6;
+    padding: 1.25rem 1.2rem;
+
+    .company__logo{
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        font-weight: 600;
+        
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+    
+    .user{
+        border-radius: 7px;
+        border: 1.5px solid #abb1b6;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7.5px;
+
+        .user-image-container{
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            overflow: hidden;
+
+            .user-image{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
